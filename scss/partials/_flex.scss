@@ -1,0 +1,21 @@
+// Flexbox Properties
+
+.d-flex {
+    display: flex;
+}
+
+.col {
+    flex-direction: column;
+}
+
+.col-r {
+    flex-direction: column-reverse;
+}
+
+.row {
+    flex-direction: row;
+}
+
+.row-r {
+    flex-direction: row-reverse;
+}
