@@ -1,0 +1,27 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+body,
+input,
+button,
+select,
+textarea {
+    font: 600 1rem 'Roboto Mono';
+    color: #222222;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:link, 
+a:active, 
+a:visited { color: #6A26CD; }
+a:hover { color: #431488; }
