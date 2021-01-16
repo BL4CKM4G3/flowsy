@@ -1,19 +1,21 @@
 a {
     color: #FFFD01;
+    transition: color .1s ease-out;
 }
 
 a:active {
-
+    text-decoration: none;
 }
 
 a:hover {
-
+    color: #6D5ACF;
+    transition: color .15s ease-in;
 }
 
 a:visited {
-
+    text-decoration: none;
 }
 
 a:link {
-    text-decoration: dashed;
+    text-decoration: none;
 }
