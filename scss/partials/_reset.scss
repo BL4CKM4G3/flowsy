@@ -36,3 +36,15 @@ ul, ol {
     margin: 0 0 1rem;
     padding: 0 0 1rem;
 }
+
+table {
+    border-collapse: collapse;
+}
+
+th {
+    text-align: left;
+}
+
+td {
+    vertical-align: middle;
+}
