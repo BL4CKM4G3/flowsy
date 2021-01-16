@@ -31,3 +31,8 @@ a:link,
 a:active, 
 a:visited { color: #6A26CD; }
 a:hover { color: #431488; }
+
+ul, ol {
+    margin: 0 0 1rem;
+    padding: 0 0 1rem;
+}
