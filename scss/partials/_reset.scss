@@ -1,11 +1,17 @@
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 html,
 body {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body,
+#root {
+  height: 100%;
 }
 
 body,
@@ -13,15 +19,28 @@ input,
 button,
 select,
 textarea {
-    font: 600 1rem 'Roboto Mono';
-    color: #222222;
+  font: 600 1rem "Roboto Mono";
+  color: #222222;
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
-a:link, 
-a:active, 
-a:visited { color: #6A26CD; }
-a:hover { color: #431488; }
+ul,
+ol {
+  margin: 0 0 1rem;
+  padding: 0 0 1rem;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+th {
+  text-align: left;
+}
+
+td {
+  vertical-align: middle;
+}
