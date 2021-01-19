@@ -1,4 +1,4 @@
-@import "./animations/keyframes.scss";
+@import "./animations/keyframes.css";
 
 .blink-finite {
   animation: .8s ease-in .8s alternate blink;
