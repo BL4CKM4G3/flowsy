@@ -1,0 +1,9 @@
+@import "./animations/keyframes.scss";
+
+.blink-finite {
+  animation: .8s ease-in .8s alternate blink;
+}
+
+.blink-infinite {
+  animation: .8s ease-in .8s infinite alternate blink;
+}
