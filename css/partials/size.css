@@ -1,6 +1,6 @@
-// Size props
+/* Size props */
 
-// Width
+/* Width */
 
 .w-10 {
   width: 10vw;
@@ -78,7 +78,7 @@
   width: 100vw;
 }
 
-// Height
+/* Height */
 
 .h-10 {
   height: 10vh;
