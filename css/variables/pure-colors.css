@@ -2,6 +2,8 @@
 
 :root {
   --success: #20C073;
+  --success-darken: #16824e;
+  --success-lighten: #45e296;
   --danger: #CF0134;
   --info: #2479FD;
   --primary: #0485D1;
